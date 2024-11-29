@@ -7,11 +7,7 @@ btnCalculate.addEventListener("click", () => {
   if (inputOneValue.value == ""||inputTwoValue.value == "") {
     alert("please input names");
   } else {
-    percentage = Math.floor(Math.random()*100 + 1);
-    resultDiv.innerHTML=`<h1>${percentage}% <h1>`;
-    setTimeout(()=>{
-     resultDiv.innerHTML = "";
-    },4000)
+  print("YOU ARE AN IDIOT SHE/HE/THEY DOESNT LOVE YOU")
   }
 
   inputOneValue.value = "";
